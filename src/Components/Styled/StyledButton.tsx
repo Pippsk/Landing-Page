@@ -1,11 +1,11 @@
 import styled from 'styled-components'
 
-type StyledButtonProps = {
-    bg:string
-    color:string
+type ButtonProps = {
+    bg?:string
+    color?:string
 }
 
-export const StyledButton = styled.button<StyledButtonProps>`
+export const Button = styled.button<ButtonProps>`
     border-radius:50px;
     border: none;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
